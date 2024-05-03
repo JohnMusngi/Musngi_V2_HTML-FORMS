@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2_HTML-FORMS
+    </title>
+    <link rel="stylessheet" href="addtocart.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel = "Stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "backrground-container">
+        <div id = "dropdown">
+            <button class = "dropdown-toggle">
+                <span>Menu</span>
+                <i class = "fa-solid fa-caret-down"></i>
+            </button>
+            <ul class = "menu">
+                <li class = "menu-item" ><a heref = "#">Geely</a></li>
+                <li class = "menu-item" ><a heref = "#">Hyundai</a></li>
+                <li class = "menu-item dropdown">
+                    <a href = "#" class = "submenu-toggle">
+                        <span>Honda</span>
+                        <i class = "fa-solid fa-caret-right"></i>
+                    </a>
+                    <ul class = "submenu">
+                        <li class = "submenu-item"><a href = "#"> Civic Type-R</a></li>
+                        <li class = "submenu-item"><a href = "#"></a>City</li>
+                        <li class = "submenu-item"><a href = "#">Br-V</a></li>
+                        <li class = "submenu-item"><a href = "#">Jazz</a></li>
+                    </ul>
+                </li>
+                    <li class = "menu-item"><a href = "#">Mitsubishi</a></li>
+                    <li class = "menu-item dropdown">
+                        <a href = "#" class = "submenu-toggle">
+                            <span>Toyota</span>
+                            <i class = "fa-solid fa-caret-right"></i>
+                        </a>
+                        <ul class = "submenu">
+                            <li class = "submenu-item"><a href = "#">Fortuner</a></li>
+                            <li class = "submenu-item"><a href = "#">Innova</a></li>
+                        </ul>                    
+                    </li>
+            </ul>
+            <div class = "logo-car">
+
+            </div>
+            <div class = "title-container">
+                <h1 class = "CarDeal">CarDeal</h1>
+            </div>
+            <div class="input-container">
+                <input class="text" type = "text" placeholder="Name"/><br>
+                <input class="email" type = "email"placeholder="name@gmail.com"/><br>
+                <input class="number" type = "number" placeholder="Age"/>
+            </div>
+        </div>
+        <h5 class = "info">The Cars we drive say a lot about us.</h5>
+        
+    <div class="payments">
+        <h1 class="Modeofpayments">Mode of payments: </h1>
+         <button class="gcash">Gcash</button><span class="divider">| </span>
+        <div class="cash">Cash</div>
+    </div>
+    <div class = "Customer-info">
+        <h2 class = "information"> Customer Information:</h2>
+        <h2 class = "Name">Name:</h2>
+        <h2 class = "Email">Email:</h2>
+        <h2 class = "Age">Age:</h2>
+     </div>
+     <div class="order">
+        <button class="place">Place order</button><span class="last"></span>
+        <button class="cancel">Cancel Order</button>/.order
+     </div>
+        
+        
+    </div>
+    <div class = "secondback">
+        <div >
+            <h2 class = "comments">Comments and feedback:</h2>
+            <textarea cols = "20" rows="5"></textarea>
+        </div>
+        <div>
+           <input class ="radioone" type="radio" name = "radiogroup"/>
+           <input class ="radiotwo" type="radio" name = "radiogroup"/>
+        </div>
+
+        <div>
+            <h2 class = "walkin">-Walk in</h2>
+            <h2 class = "online">-Online </h2>
+        </div>
+        <div class="header">
+            <p class="logo">LOGO</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+            </div>
+        </div>
+        <script src="addtocart.js"></script>
+    </body>
+    
+</body>
+<script src = "script.js"></script>
+</html>
+
+
